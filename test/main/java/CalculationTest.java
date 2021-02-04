@@ -8,8 +8,17 @@ class CalculationTest {
     Calculation calculation = new Calculation(2000, "kr", true);
 
     @Test
-    public void getSalary() throws Exception {
+    void addSalary() {
+        calculation.addSalary(200);
+        assertEquals(calculation.getSalary(), 2200);
+    }
 
+    @Test
+    void testAddStringToUnit() {
+    }
+
+    @Test
+    public void getSalary() throws Exception {
         assertEquals(calculation.getSalary(), 2000);
     }
 
@@ -19,7 +28,7 @@ class CalculationTest {
     }
 
     @Test
-    void getNegative() {
+    void getIsNegative() {
         assertEquals(calculation.getIsNegative(), true);
     }
 
@@ -41,17 +50,5 @@ class CalculationTest {
 
     @Test
     void testGetUnit() {
-    }
-
-    @Test
-    void getIsNegative() {
-    }
-
-    @Test
-    void addSalary() {
-    }
-
-    @Test
-    void addStringToUnit() {
     }
 }

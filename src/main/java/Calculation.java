@@ -10,6 +10,17 @@ public class Calculation {
         this.unit = unit;
         this.isNegative = isNegative;
     }
+    public int getSalary() {
+        return salary;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public Boolean getIsNegative() {
+        return isNegative;
+    }
 
     public void setSalary(int salary) {
         this.salary = salary;
@@ -21,18 +32,6 @@ public class Calculation {
 
     public void setIsNegative(Boolean bool) {
         isNegative = bool;
-    }
-
-    public int getSalary() {
-        return salary;
-    }
-
-    public String getUnit() {
-        return unit;
-    }
-
-    public Boolean getIsNegative() {
-        return isNegative;
     }
 
     public int addSalary(int addedSalary) {
