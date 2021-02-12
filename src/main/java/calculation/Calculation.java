@@ -1,4 +1,4 @@
-package main.java;
+package main.java.calculation;
 
 public class Calculation {
     private int salary;
@@ -40,6 +40,6 @@ public class Calculation {
     }
 
     public String addStringToUnit(String string) {
-        return unit + " " + string;
+        return unit + ": " + string;
     }
 }

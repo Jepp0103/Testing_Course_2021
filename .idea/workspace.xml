@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d05e7d3-0a6b-4415-b3b0-1287b467ae3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarok/Cup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tarok/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Testing_Course_2021/main/java/Calculation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Testing_Course_2021/main/java/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Testing_Course_2021/main/java/CalculationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Testing_Course_2021/main/java/CalculationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculation/Calculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculation/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/main/java/CalculationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/java/CalculationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="228" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -68,12 +77,25 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.tarok.Demo" />
+      <module name="Testing_Course_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.tarok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing_Course_2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.*" />
+          <option name="PATTERN" value="main.java.tarok.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="JUnit.CalculationTest" />
       </list>
     </recent_temporary>
@@ -115,7 +138,9 @@
       <workItem from="1612379075355" duration="4502000" />
       <workItem from="1612423196868" duration="628000" />
       <workItem from="1612423849716" duration="605000" />
-      <workItem from="1612425738260" duration="1634000" />
+      <workItem from="1612425738260" duration="5692000" />
+      <workItem from="1613028552916" duration="9282000" />
+      <workItem from="1613153457102" duration="6018000" />
     </task>
     <servers />
   </component>
@@ -130,22 +155,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="198" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612382928783" />
-    <state width="1497" height="178" key="GridCell.Tab.0.bottom" timestamp="1612432630615">
+    <state x="496" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613160942823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="178" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612432630615" />
-    <state width="1497" height="178" key="GridCell.Tab.0.center" timestamp="1612432630614">
+    <state x="496" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613160942823" />
+    <state width="1497" height="220" key="GridCell.Tab.0.bottom" timestamp="1613160922920">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="178" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612432630614" />
-    <state width="1497" height="178" key="GridCell.Tab.0.left" timestamp="1612432630614">
+    <state width="1497" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613160922920" />
+    <state width="1497" height="220" key="GridCell.Tab.0.center" timestamp="1613160922920">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="178" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612432630614" />
-    <state width="1497" height="178" key="GridCell.Tab.0.right" timestamp="1612432630615">
+    <state width="1497" height="220" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613160922920" />
+    <state width="1497" height="220" key="GridCell.Tab.0.left" timestamp="1613160922920">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="178" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612432630615" />
+    <state width="1497" height="220" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613160922920" />
+    <state width="1497" height="220" key="GridCell.Tab.0.right" timestamp="1613160922920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1497" height="220" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613160922920" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1612382913223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -154,13 +183,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="533" y="93" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612385078590" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1612383514494">
+    <state x="1920" y="0" width="1254" height="808" maximized="true" key="dock-window-1" timestamp="1613157762383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="0" width="1254" height="808" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613157762383" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1613158269717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1612383514494" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613158269717" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1613155825536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613155825536" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TestingPractices$CalculationTest.ic" NAME="CalculationTest Coverage Results" MODIFIED="1612432630563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestingPractices$CalculationTest.ic" NAME="CalculationTest Coverage Results" MODIFIED="1612436281847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.java.*</FILTER>
     </SUITE>
   </component>

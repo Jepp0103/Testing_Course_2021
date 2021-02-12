@@ -1,11 +1,12 @@
 package main.java;
 
+import main.java.calculation.Calculation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculationTest {
-    Calculation calculation = new Calculation(2000, "kr", true);
+    Calculation calculation = new Calculation(2000, "kroner", true);
 
     @Test
     void addSalary() {
@@ -15,15 +16,17 @@ class CalculationTest {
 
     @Test
     void testAddStringToUnit() {
+        String newString = calculation.addStringToUnit("danish valuta");
+        assertEquals(newString, "kr: danish valuta");
     }
 
     @Test
-    public void getSalary() throws Exception {
+    public void testGetSalary() throws Exception {
         assertEquals(calculation.getSalary(), 2000);
     }
 
     @Test
-    void getUnit() {
+    void testGetUnit() {
         assertEquals(calculation.getUnit(), "kr");
     }
 
@@ -34,21 +37,19 @@ class CalculationTest {
 
     @Test
     void setSalary() {
+        calculation.setSalary(3000);
+        assertEquals(calculation.getSalary(), 3000);
     }
 
     @Test
     void setUnit() {
+        calculation.setUnit("$");
+        assertEquals(calculation.getUnit(), "$");
     }
 
     @Test
     void setIsNegative() {
-    }
-
-    @Test
-    void testGetSalary() {
-    }
-
-    @Test
-    void testGetUnit() {
+        calculation.setIsNegative(false);
+        assertEquals(calculation.getIsNegative(), false);
     }
 }
