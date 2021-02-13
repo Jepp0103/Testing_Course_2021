@@ -3,14 +3,17 @@ package main.java.tarok;
 public class Cup {
     private int points;
     private String playerName;
-    // protected int cup2;
-    // protected int cup3;
-
     public Cup(String playerName, int points) {
           this.points = points;
           this.playerName = playerName;
-//        this.cup2 = 0;
-//        this.cup3 = 0;
+    }
+
+    public int getPoints() {
+        return points;
+    }
+
+    public String getPlayerName() {
+        return playerName;
     }
 
     public int updateCupPoints(String pointAnnouncement, int extraTarotsAmount, int extraMatadorsAmount) {
