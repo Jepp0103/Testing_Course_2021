@@ -23,7 +23,7 @@ public class Cup {
             points += 10;
             System.out.println(("10 tarots = 10 points added to"));
         } else if (pointAnnouncement == "3 matadors" && extraMatadorsAmount > 0 && extraMatadorsAmount <= 12) {
-            points += 10 + (5 * extraTarotsAmount);
+            points += 10 + (5 * extraMatadorsAmount);
         } else if (pointAnnouncement == "half kings" || pointAnnouncement == "half cavalry"){
             points += 5;
         } else if (pointAnnouncement == "full kings" || pointAnnouncement == "full cavalry"){
@@ -31,7 +31,7 @@ public class Cup {
         } else if (pointAnnouncement == "overfull kings" || pointAnnouncement == "overfull cavalry"){
             points += 15;
         } else {
-            System.out.println(("Couldnt add points due to invalid input"));
+            System.out.println(("Couldn't add points due to invalid input"));
         }
         return points;
     }

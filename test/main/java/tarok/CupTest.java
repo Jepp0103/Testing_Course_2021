@@ -39,4 +39,51 @@ class CupTest {
         assertEquals(30, cup.getPoints());
     }
 
+    @Test
+    void updateCupPointsHalfKings() {
+        //Act
+        cup.updateCupPoints("half kings", 2, 4); //Testing if extra tarots or matadors can be added
+        //Assert
+        assertEquals(5, cup.getPoints());
+    }
+
+    @Test
+    void updateCupPointsHalfCavalry() {
+        //Act
+        cup.updateCupPoints("half cavalry", 2, 4); //Testing if extra tarots or matadors can be added
+        //Assert
+        assertEquals(5, cup.getPoints());
+    }
+
+    @Test
+    void updateCupPointsFullKings() {
+        //Act
+        cup.updateCupPoints("full kings", 2, 4); //Testing if extra tarots or matadors can be added
+        //Assert
+        assertEquals(10, cup.getPoints());
+    }
+
+    @Test
+    void updateCupPointsFullCavalry() {
+        //Act
+        cup.updateCupPoints("full cavalry", 2, 4); //Testing if extra tarots or matadors can be added
+        //Assert
+        assertEquals(10, cup.getPoints());
+    }
+
+    @Test
+    void updateCupPointsOverFullKings() {
+        //Act
+        cup.updateCupPoints("overfull kings", 2, 4); //Testing if extra tarots or matadors can be added
+        //Assert
+        assertEquals(15, cup.getPoints());
+    }
+
+    @Test
+    void updateCupPointsOverFullCavalry() {
+        //Act
+        cup.updateCupPoints("overfull cavalry", 2, 4); //Testing if extra tarots or matadors can be added
+        //Assert
+        assertEquals(15, cup.getPoints());
+    }
 }

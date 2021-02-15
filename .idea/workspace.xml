@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d05e7d3-0a6b-4415-b3b0-1287b467ae3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/main/java/tarok/CupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_Course_2021/main/java/tarok/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing_Course_2021/main/java/tarok/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testing_Course_2021/main/java/tarok/Tarok.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Testing_Course_2021/main/java/tarok/Cup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testing_Course_2021/main/java/tarok/Cup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tarok/Cup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarok/Cup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tarok/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tarok/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main/java/tarok/CupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/main/java/tarok/CupTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="103" />
+    <option name="myElementSize" value="68" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -75,7 +73,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CupTest">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.tarok.Demo" />
       <module name="Testing_Course_2021" />
@@ -85,21 +83,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing_Course_2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.tarok.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java" />
-      <option name="MAIN_CLASS_NAME" value="main.java.CalculationTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CupTest.updateCupPointsThreeMatadorsAndExtraMatadors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CupTest.updateCupPointsFullCavalry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing_Course_2021" />
       <extension name="coverage">
         <pattern>
@@ -129,7 +112,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="main.java.tarok" />
       <option name="MAIN_CLASS_NAME" value="main.java.tarok.CupTest" />
-      <option name="METHOD_NAME" value="updateCupPointsThreeMatadorsAndExtraMatadors" />
+      <option name="METHOD_NAME" value="updateCupPointsFullCavalry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CupTest.updateCupPointsHalfCavalry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing_Course_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.tarok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.tarok" />
+      <option name="MAIN_CLASS_NAME" value="main.java.tarok.CupTest" />
+      <option name="METHOD_NAME" value="updateCupPointsHalfCavalry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CupTest.updateCupPointsInvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing_Course_2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.tarok.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.tarok" />
+      <option name="MAIN_CLASS_NAME" value="main.java.tarok.CupTest" />
+      <option name="METHOD_NAME" value="updateCupPointsInvalidInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,10 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CupTest" />
-        <item itemvalue="JUnit.CupTest.updateCupPointsThreeMatadorsAndExtraMatadors" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="JUnit.CalculationTest" />
+        <item itemvalue="JUnit.CupTest" />
+        <item itemvalue="JUnit.CupTest.updateCupPointsInvalidInput" />
+        <item itemvalue="JUnit.CupTest.updateCupPointsFullCavalry" />
+        <item itemvalue="JUnit.CupTest.updateCupPointsHalfCavalry" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +188,9 @@
       <workItem from="1612425738260" duration="5692000" />
       <workItem from="1613028552916" duration="9282000" />
       <workItem from="1613153457102" duration="6056000" />
-      <workItem from="1613207453785" duration="12286000" />
+      <workItem from="1613207453785" duration="12712000" />
+      <workItem from="1613377338924" duration="2306000" />
+      <workItem from="1613406576963" duration="1670000" />
     </task>
     <servers />
   </component>
@@ -195,22 +213,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613160942823" />
-    <state width="1497" height="157" key="GridCell.Tab.0.bottom" timestamp="1613241687339">
+    <state width="1497" height="157" key="GridCell.Tab.0.bottom" timestamp="1613408248860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613241687339" />
-    <state width="1497" height="157" key="GridCell.Tab.0.center" timestamp="1613241687338">
+    <state width="1497" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613408248860" />
+    <state width="1497" height="157" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1613256893219" />
+    <state width="1497" height="157" key="GridCell.Tab.0.center" timestamp="1613408248859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="157" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613241687338" />
-    <state width="1497" height="157" key="GridCell.Tab.0.left" timestamp="1613241687338">
+    <state width="1497" height="157" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613408248859" />
+    <state width="1497" height="157" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1613256893218" />
+    <state width="1497" height="157" key="GridCell.Tab.0.left" timestamp="1613408248859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="157" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613241687338" />
-    <state width="1497" height="157" key="GridCell.Tab.0.right" timestamp="1613241687338">
+    <state width="1497" height="157" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613408248859" />
+    <state width="1497" height="157" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1613256893218" />
+    <state width="1497" height="157" key="GridCell.Tab.0.right" timestamp="1613408248859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1497" height="157" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613241687338" />
+    <state width="1497" height="157" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613408248859" />
+    <state width="1497" height="157" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1613256893218" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1612382913223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -219,10 +241,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="533" y="93" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613239085727" />
-    <state x="1920" y="0" width="1251" height="666" maximized="true" key="dock-window-1" timestamp="1613240288404">
+    <state x="1920" y="0" width="1251" height="666" maximized="true" key="dock-window-1" timestamp="1613406681798">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1920" y="0" width="1251" height="666" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613240288404" />
+    <state x="1920" y="0" width="1251" height="666" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613406681798" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1613212289789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,11 +255,17 @@
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1613213520189" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TestingPractices$CupTest.ic" NAME="CupTest Coverage Results" MODIFIED="1613241393301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TestingPractices$CupTest_updateCupPointsHalfCavalry.ic" NAME="CupTest.updateCupPointsHalfCavalry Coverage Results" MODIFIED="1613407181466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.java.tarok.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingPractices$CupTest.ic" NAME="CupTest Coverage Results" MODIFIED="1613407380633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.java.tarok.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TestingPractices$CalculationTest.ic" NAME="CalculationTest Coverage Results" MODIFIED="1612436281847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>main.java.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TestingPractices$CupTest_updateCupPointsFullCavalry.ic" NAME="CupTest.updateCupPointsFullCavalry Coverage Results" MODIFIED="1613407246949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.java.tarok.*</FILTER>
     </SUITE>
   </component>
 </project>
